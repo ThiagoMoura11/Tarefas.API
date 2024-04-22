@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefas.API", "Tarefas.API\Tarefas.API.csproj", "{5975FDF6-0D13-4DB6-A408-A9D3CD1BBC9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46} = {11735E20-3105-4FA6-A3BB-A11E25CECD46}
+		{74790390-2CCA-48F2-980A-5F145683CB74} = {74790390-2CCA-48F2-980A-5F145683CB74}
+		{EE0E8738-FC03-4375-B044-EA5DDC192939} = {EE0E8738-FC03-4375-B044-EA5DDC192939}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-API", "1-API", "{8D836AB6-925E-4686-A4DA-E27BA5B9CFF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-DATA", "2-DATA", "{239C1682-76C0-4813-A318-C811162D19BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-DOMAIN", "3-DOMAIN", "{A99E4CD5-279E-4756-A177-19B5118D9378}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-SERVICE", "4-SERVICE", "{D3DCAF2C-B177-4321-A115-5A5AFD41C2F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefas.Data", "Tarefas.Data\Tarefas.Data.csproj", "{EE0E8738-FC03-4375-B044-EA5DDC192939}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46} = {11735E20-3105-4FA6-A3BB-A11E25CECD46}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefas.Domain", "Tarefas.Domain\Tarefas.Domain.csproj", "{11735E20-3105-4FA6-A3BB-A11E25CECD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefas.Service", "Tarefas.Service\Tarefas.Service.csproj", "{74790390-2CCA-48F2-980A-5F145683CB74}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46} = {11735E20-3105-4FA6-A3BB-A11E25CECD46}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5975FDF6-0D13-4DB6-A408-A9D3CD1BBC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5975FDF6-0D13-4DB6-A408-A9D3CD1BBC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5975FDF6-0D13-4DB6-A408-A9D3CD1BBC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5975FDF6-0D13-4DB6-A408-A9D3CD1BBC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0E8738-FC03-4375-B044-EA5DDC192939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0E8738-FC03-4375-B044-EA5DDC192939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0E8738-FC03-4375-B044-EA5DDC192939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0E8738-FC03-4375-B044-EA5DDC192939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74790390-2CCA-48F2-980A-5F145683CB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74790390-2CCA-48F2-980A-5F145683CB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74790390-2CCA-48F2-980A-5F145683CB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74790390-2CCA-48F2-980A-5F145683CB74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5975FDF6-0D13-4DB6-A408-A9D3CD1BBC9D} = {8D836AB6-925E-4686-A4DA-E27BA5B9CFF2}
+		{EE0E8738-FC03-4375-B044-EA5DDC192939} = {239C1682-76C0-4813-A318-C811162D19BC}
+		{11735E20-3105-4FA6-A3BB-A11E25CECD46} = {A99E4CD5-279E-4756-A177-19B5118D9378}
+		{74790390-2CCA-48F2-980A-5F145683CB74} = {D3DCAF2C-B177-4321-A115-5A5AFD41C2F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA023165-E51D-4DE8-8762-F0F652FAFE4D}
+	EndGlobalSection
+EndGlobal
